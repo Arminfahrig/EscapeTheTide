@@ -15,7 +15,7 @@ import { Draggable, DropTarget } from "./../renderable/dragndrop.js";
  */
 export function warning(deprecated, replacement, version) {
     var msg = "melonJS: %s is deprecated since version %s, please use %s";
-    var stack = new Error().stack;
+    var stack = new Error().stack; //test
 
     if (console.groupCollapsed) {
         console.groupCollapsed(
