@@ -10,7 +10,7 @@ const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 
 const playerImage = new Image();
-playerImage.src = 'img/test2.png';
+playerImage.src = 'img/Character/CharacterExample.png';
 const spriteWidth = 575;
 const spriteHeight = 523;
 
