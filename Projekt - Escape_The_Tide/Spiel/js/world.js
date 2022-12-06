@@ -65,7 +65,7 @@ const layer5 = new Layer(backgroundLayer5, 1)
 
 const gameObjects = [layer1, layer2, layer3, layer4, layer5]
 
-function animate(){
+function animate2(){
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
     gameObjects.forEach(object => {
         object.update()
@@ -80,4 +80,4 @@ function animate(){
      */
 
 }
-animate()
+animate2()
