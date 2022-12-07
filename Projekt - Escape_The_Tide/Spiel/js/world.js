@@ -5,7 +5,7 @@ const CANVAS_HEIGHT = canvas.height = 700
 let gameSpeed = 10
 
 const backgroundLayer1 = new Image()
-backgroundLayer1.src = 'img/World/layer-1.png'
+backgroundLayer1.src = ''
 const backgroundLayer2 = new Image()
 backgroundLayer2.src = 'img/World/layer-2.png'
 const backgroundLayer3 = new Image()
