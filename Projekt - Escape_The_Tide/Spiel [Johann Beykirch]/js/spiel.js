@@ -60,7 +60,8 @@ window.addEventListener('load', function (){
             obstecles.forEach(obstecle => {
                 const dx1 = obstecle.x - this.x - this.playerwidth
                 const dx2 = obstecle.x + obstecle.obsteclewidth - 20 - this.x
-                const dy1 = obstecle.y - 126 - this.y + this.playerheight
+                const dy1 = obstecle.y - 126 - this.y + this.playerheight -75
+                console.log(dx1,dx2,dy1)
                 if ((dx1 <= 0 && dx2 >= 0) && dy1 <= 0) {
                     gameOver = true
                 }
@@ -69,10 +70,6 @@ window.addEventListener('load', function (){
                 //const tex2 = obstecle.x + obstecle.terrainwidth - this.x
                 //const tex3 = obstecle.x * 2
                 const tey1 = obstecle.y - this.y - this.playerheight
-                //const playerBotBorder = this.y + this.playerheight
-                //console.log(this.gameHeight,obstecle.y,playerBotBorder)
-                console.log(this.x , obstecle.x + obstecle.terrainwidth)
-                console.log(this.x + this.playerwidth , obstecle.x)
                 if((this.x + this.playerwidth > obstecle.x) && (this.x < obstecle.x + obstecle.terrainwidth * 7.5) && (this.y + this.playerheight <= obstecle.y)) {
                     this.gameHeight = obstecle.y
                 }else if (this.x > obstecle.x + obstecle.terrainwidth * 7.5) {
