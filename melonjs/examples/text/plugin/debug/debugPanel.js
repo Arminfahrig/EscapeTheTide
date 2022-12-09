@@ -697,7 +697,7 @@ class DebugPanel extends me.Renderable {
  * @memberOf me
  * @constructor
  * @example
- * // load the debugPanel in your Spiel.html file
+ * // load the debugPanel in your Spiel [Johann Beykirch].html file
  * <script type="text/javascript" src="plugins/debug/debugPanel.js"></script>
  */
 export class DebugPanelPlugin extends me.plugin.Base {

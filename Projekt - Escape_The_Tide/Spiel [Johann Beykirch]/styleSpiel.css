@@ -9,6 +9,6 @@ body {
     transform: translate(-50%,-50%);
     border: 3px solid white;
 }
-#playerImage, #backgroundImage1, #backgroundImage2, #backgroundImage3, #obsteclesImage, #tideImage {
+#playerImage, #backgroundImage1, #backgroundImage2, #backgroundImage3, #obsteclesImage, #tideImage, #eastereggImage1, #eastereggImage2, #terrainImage1, #terrainImage2, #terrainImage3, #terrainImage4 {
     display: none;
 }
